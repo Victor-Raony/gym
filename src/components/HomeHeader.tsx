@@ -22,8 +22,7 @@ export function HomeHeader(){
           Victor Raony
         </Heading>
       </VStack>
-
-      <LogOut />
+      
       <Icon as={LogOut} color="$gray200" size="xl" />
     </HStack>
   )
