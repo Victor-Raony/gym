@@ -15,9 +15,10 @@ export function History() {
         data: ["Puxada frontal"],
       },
   ])
+
   return(
     <VStack flex={1}>
-      <ScreenHeader title= "Histórico"/>
+      <ScreenHeader title= "Histórico de Exercícios"/>
 
       <SectionList
         sections={exercises}
